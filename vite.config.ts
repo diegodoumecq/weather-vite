@@ -10,9 +10,9 @@ const config = ({ mode }: ConfigEnv): UserConfigExport => {
     plugins: [react()],
     build: {
       manifest: true,
-      rollupOptions: {
-        input: "./src/main.tsx",
-      },
+      // rollupOptions: {
+      //   input: "./src/main.tsx",
+      // },
     },
     server: {
       open: true,
