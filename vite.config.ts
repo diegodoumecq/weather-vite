@@ -6,6 +6,7 @@ import type { ConfigEnv, UserConfigExport } from "vite";
 const config = ({ mode }: ConfigEnv): UserConfigExport => {
   process.env = { ...process.env, ...loadEnv(mode, process.cwd()) };
   return defineConfig({
+    base: "/weather-vite/",
     plugins: [react()],
     build: {
       manifest: true,
