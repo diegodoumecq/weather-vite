@@ -1,4 +1,4 @@
 export const ROUTES = {
-  home: "/",
+  home: "/weather-vite",
   login: "/login"
 } as const;
