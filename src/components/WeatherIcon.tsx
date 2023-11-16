@@ -22,7 +22,7 @@ export function WeatherIcon({
     <div className={cn(`relative invert`, className)}>
       <img
         alt={`${weatherCode}`}
-        src={`/icons/wi-${iconName}.svg`}
+        src={`/weather-vite/icons/wi-${iconName}.svg`}
         className="select-none"
       />
     </div>
